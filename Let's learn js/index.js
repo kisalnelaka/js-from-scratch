@@ -120,24 +120,32 @@
 
 //-------------------------------------------------------------------
 
-const decreaseBtn = document.getElementById("decreaseBtn");
-const resetBtn = document.getElementById("resetBtn");
-const increaseBtn = document.getElementById("increaseBtn");
-const countLbl = document.getElementById("countLbl");
+// const decreaseBtn = document.getElementById("decreaseBtn");
+// const resetBtn = document.getElementById("resetBtn");
+// const increaseBtn = document.getElementById("increaseBtn");
+// const countLbl = document.getElementById("countLbl");
 
-let count = 0;
+// let count = 0;
 
-increaseBtn.onclick = function(){
-    count++;
-    countLbl.textContent = count;
-}
+// increaseBtn.onclick = function(){
+//     count++;
+//     countLbl.textContent = count;
+// }
 
-decreaseBtn.onclick = function(){
-    count--;
-    countLbl.textContent = count;
-}
+// decreaseBtn.onclick = function(){
+//     count--;
+//     countLbl.textContent = count;
+// }
 
-resetBtn.onclick = function(){
-    count=0;
-    countLbl.textContent = count;
-}
+// resetBtn.onclick = function(){
+//     count=0;
+//     countLbl.textContent = count;
+// }
+
+//-----------------------------------------------------
+
+//Math.PI;
+console.log(Math.PI);
+
+//Msth.E
+console.log(Math.E);
