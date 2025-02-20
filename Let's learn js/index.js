@@ -65,3 +65,15 @@
 
 // ------------------------------------------------------------------
 
+// let userName ;
+// // userName = window.prompt("Enter your name");
+// // console.log(userName);
+
+// document.getElementById("mySubmit").onclick = function(){
+//     userName = document.getElementById("userName").value;
+//     console.log(userName);
+//     document.getElementById("greeting").textContent ="hello " + userName;
+// }
+
+//---------------------------------------------------------------
+
