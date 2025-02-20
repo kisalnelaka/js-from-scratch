@@ -144,8 +144,29 @@
 
 //-----------------------------------------------------
 
-//Math.PI;
-console.log(Math.PI);
+// //Math.PI;
+// console.log(Math.PI);
 
-//Msth.E
-console.log(Math.E);
+// //Msth.E
+// console.log(Math.E);
+
+// let x = 10.2;
+// let y =2;
+// let z;
+
+// console.log(Math.round(x)); //it will round to the nearest integer
+// console.log(Math.ceil(x)); //it will always round up
+// console.log(Math.floor(x)); //it will always round down
+// console.log(Math.trunc(x)); //it will remove the decimal part
+// console.log(Math.pow(x,y)); //it will give x to the power of y
+// console.log(Math.sqrt(x)); //it will give the square root of x
+// console.log(Math.abs(-x)); //it will give the absolute value of x
+// console.log(Math.log(x)); //it will give the natural logarithm of x
+// console.log(Math.log10(x)); //it will give the base 10 logarithm of x
+// console.log(Math.min(x,y)); //it will give the minimum value
+// console.log(Math.max(x,y)); //it will give the maximum value
+// console.log(Math.random()); //it will give a random number between 0 and 1
+// console.log(Math.random()*10); //it will give a random number between 0 and 10
+// console.log(Math.floor(Math.random()*10)); //it will give a random integer between 0 and 10
+
+//-------------------------------------------------------------
