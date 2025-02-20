@@ -8,19 +8,30 @@
 
 // --------------------------------------------------
 
-let x;
-x=10;
-console.log(x);
-//window.alert(x);
-let y=20;
-console.log(`y is ${y}`); //only backticks work it seems
-console.log("y is " + y); //this works too with double quotes
-console.log('y is ' + y); //this works too with single quotes
+// let x;
+// x=10;
+// console.log(x);
+// //window.alert(x);
+// let y=20;
+// console.log(`y is ${y}`); //only backticks work it seems
+// console.log("y is " + y); //this works with double quotes
+// console.log('y is ' + y); //this works with single quotes too
 
-let age=29;
-let price=19.99;
-let name="kisal";
-let isOnline=true;
-console.log(typeof name);
-console.log(`my name is ${name} and I am ${age} years old`);
-console.log(typeof isOnline);
+// let age=29;
+// let price=19.99;
+// let name="kisal";
+// let isOnline=true;
+// let isOffline=false;
+
+// console.log(typeof age);
+// console.log(typeof name);
+// console.log(`my name is ${name} and I am ${age} years old`);
+// console.log(typeof isOnline);
+
+let fullName = "Kisal Nelaka";
+let age = 29;
+let isStudent = false;
+
+document.getElementById("p1").textContent = `your name is ${fullName}`;
+document.getElementById("p2").textContent = `your age is ${age}`;
+document.getElementById("p3").textContent = "Enrolled:"+isStudent;
