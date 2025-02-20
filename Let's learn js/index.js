@@ -28,10 +28,40 @@
 // console.log(`my name is ${name} and I am ${age} years old`);
 // console.log(typeof isOnline);
 
-let fullName = "Kisal Nelaka";
-let age = 29;
-let isStudent = false;
+// let fullName = "Kisal Nelaka";
+// let age = 29;
+// let isStudent = false;
 
-document.getElementById("p1").textContent = `your name is ${fullName}`;
-document.getElementById("p2").textContent = `your age is ${age}`;
-document.getElementById("p3").textContent = "Enrolled:"+isStudent;
+// document.getElementById("p1").textContent = `your name is ${fullName}`;
+// document.getElementById("p2").textContent = `your age is ${age}`;
+// document.getElementById("p3").textContent = "Enrolled:"+isStudent;
+// -----------------------------------------------------------------------
+
+// let noOfStudents = 20;
+
+// noOfStudents = noOfStudents + 1;
+// noOfStudents += 1;
+// noOfStudents++;
+
+// noOfStudents = noOfStudents - 1;
+// noOfStudents -= 1;
+// noOfStudents--;
+
+// noOfStudents = noOfStudents * 2;
+// noOfStudents *= 2;
+
+// noOfStudents = noOfStudents / 2;
+// noOfStudents /= 2;
+
+// noOfStudents = noOfStudents ** 2;
+// noOfStudents **= 2;
+
+// noOfStudents = noOfStudents % 3;
+// noOfStudents %= 2;
+
+// console.log(noOfStudents);
+
+//js uses bodmas
+
+// ------------------------------------------------------------------
+
