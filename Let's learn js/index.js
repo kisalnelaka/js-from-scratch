@@ -98,22 +98,24 @@
 
 //let pi=3.1415910;  this can be changed by anyone
 
-const PI=3.1415910; //this cannot be changed by anyone. capitalization is only for primitive data types
-let radius;
-let circumference;
+// const PI=3.1415910; //this cannot be changed by anyone. capitalization is only for primitive data types
+// let radius;
+// let circumference;
 
-//PI = 13.14; //this will give an error
+// //PI = 13.14; //this will give an error
 
-//radius = window.prompt("Enter the radius of the circle");
-radius = Number(radius);
-circumference = 2 * PI * radius;
+// //radius = window.prompt("Enter the radius of the circle");
+// radius = Number(radius);
+// circumference = 2 * PI * radius;
 
-//console.log(`The circumference of the circle is ${circumference}`);
+// //console.log(`The circumference of the circle is ${circumference}`);
 
-document.getElementById("mySubmit").onclick = function(){
-    radius = document.getElementById("radius").value;
-    radius = Number(radius);
-    circumference = 2 * PI * radius;
-    document.getElementById("result").textContent = "Circumference is: "+circumference;
+// document.getElementById("mySubmit").onclick = function(){
+//     radius = document.getElementById("radius").value;
+//     radius = Number(radius);
+//     circumference = 2 * PI * radius;
+//     document.getElementById("result").textContent = "Circumference is: "+circumference;
 
-};
+// };
+
+//-------------------------------------------------------------------
