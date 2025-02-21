@@ -170,3 +170,33 @@
 // console.log(Math.floor(Math.random()*10)); //it will give a random integer between 0 and 10
 
 //-------------------------------------------------------------
+
+// let age = 12 ;
+
+// if(age>=18){
+//     console.log("You are an adult");
+// }else{
+//     console.log("You are a child");
+// }
+
+// const age = document.getElementById("age");
+// const mySubmit = document.getElementById("mySubmit");
+// const result = document.getElementById("result");
+// let stuAge = 0;
+// mySubmit.onclick = function(){
+//     stuAge = Number(age.value);
+//     if(stuAge>=18){
+//         result.textContent = "You are an adult";
+//     }else{
+//         result.textContent = "You are a child";
+//     }
+//     if(stuAge>=18 && stuAge<60){
+//         result.textContent = "You are an adult";
+//     }else if(stuAge>=60){
+//         result.textContent = "You are a senior citizen";
+//     }else{
+//         result.textContent = "You are a child";
+//     }
+// }
+
+//------------------------------------------------------------
