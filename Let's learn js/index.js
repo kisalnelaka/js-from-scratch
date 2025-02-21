@@ -200,3 +200,34 @@
 // }
 
 //------------------------------------------------------------
+
+
+// const myCheck = document.getElementById("myCheck");
+// const visa = document.getElementById("visa");
+// const mastercard = document.getElementById("mastercard");
+// const paypal = document.getElementById("paypal");
+// const mySubmit = document.getElementById("mySubmit");
+// const checkresult = document.getElementById("checkresult");
+// const payment = document.getElementById("payment");
+
+// mySubmit.onclick = function(){
+
+//     if(myCheck.checked){
+//         checkresult.textContent = "You have checked the checkbox";
+//     }else{
+//         checkresult.textContent = "You have not checked the checkbox";
+//     }
+
+//     if(visa.checked){
+//         payment.textContent = "You have selected Visa";
+//     }else if(mastercard.checked){
+//         payment.textContent = "You have selected Mastercard";
+//     }else if(paypal.checked){
+//         payment.textContent = "You have selected Paypal";
+//     }else{
+//         payment.textContent = "You have not selected any payment method";
+//     }
+
+// }
+
+// ---------------------------------------------------------------------------
